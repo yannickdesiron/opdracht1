@@ -1,14 +1,14 @@
 body {
   margin: 10;
   padding: 10;
+  font-family: 'Oswald', sans-serif;
 }
 
 .nav li {
-	font-family: 'Oswald', sans-serif;
-	font-size: 1em;
+  font-size: 1em;
 	line-height: 40px;
 	height: 100px;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #444;
 	text-align: center;
 }
  
@@ -20,12 +20,12 @@ body {
 }
  
 .nav a:hover {
-	background-color: #000;
+	background-color: #444;
 	color: #fff;
 }
  
 .nav a.active {
-  background-color: #000;
+  background-color: #444;
   color: #fff;
   cursor: default;
 }
@@ -44,4 +44,17 @@ body {
     margin-right: -4px;
   }
   
+}
+
+table {
+  border:"0";
+  width:"100%";
+}
+
+.profielfoto {
+  width:"350px";
+}
+
+.homepageimage {
+  width:100%;
 }
